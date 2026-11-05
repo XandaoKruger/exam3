@@ -22,7 +22,7 @@
 | `hidenp("aaaa", "aaa")` | `False` |
 | `hidenp("sing","subsequence testing")` | `True` |
 
-### Lib Rich Import
+### Lib __rich__ mport
 
 >[!NOTE]
 > Rich library used to replace the built-in print with the library's print, which has numerous functions. Here used to color 'TRUE & FALSE' automatically just by making this import.
