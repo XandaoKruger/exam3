@@ -8,7 +8,6 @@ def hidenp(small: str, big: str) -> bool:
     for c in big:
         if y < len(small) and small[y] == c:
             y += 1
-        
 
     return y == len(small)
 

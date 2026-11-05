@@ -5,43 +5,18 @@ of 'big'. A subsequence means all characters of 'small' appear in 'big'
 in the same order, but not necessarily consecutively.
 Function is case-sensitive.
 
-Function signature
+### Function signature
 
 	def hidenp(small: str, big: str) -> bool:
 
-Examples
+### Examples
 
-Input
-hidenp("abc", "a1b2c3")
-Output
-True
-
-Input
-hidenp("ace", "abcde")
-Output
-True
-
-Input
-hidenp("aec", "abcde")
-Output
-False
-
-Input
-hidenp("", "abc")
-Output
-True
-
-Input
-hidenp("abc", "ab")
-Output
-False
-
-Input
-hidenp("aaaa", "aaa")
-Output
-False
-
-Input
-hidenp("sing","subsequence testing")
-Output
-True
+| Input | Output |
+| :---: | :---: |
+| `hidenp("abc", "a1b2c3")` | `True` |
+| `hidenp("ace", "abcde")` | `True` |
+| `hidenp("aec", "abcde")` | `False` |
+| `hidenp("", "abc")` | `True` |
+| `hidenp("abc", "ab")` | `False` |
+| `hidenp("aaaa", "aaa")` | `False` |
+| `hidenp("sing","subsequence testing")` | `True` |
