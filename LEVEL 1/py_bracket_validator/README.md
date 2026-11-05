@@ -8,48 +8,20 @@ in the correct order.
 
 Allowed brackets: (), [], {}
 
-Function signature
+### Function signature
 
 	def bracket_validator(s: str) -> bool:
 
-Examples
 
-Input
-bracket_validator("()")
-Output
-True
+### Examples
 
-Input
-bracket_validator("()[]{}")
-Output
-True
-
-Input
-bracket_validator("(]")
-Output
-False
-
-Input
-bracket_validator("([)]")
-Output
-False
-
-Input
-bracket_validator("{[]}")
-Output
-True
-
-Input
-bracket_validator("hello(world)")
-Output
-True
-
-Input
-bracket_validator("((())")
-Output
-False
-
-Input
-bracket_validator("")
-Output
-True
+| Input | Output |
+| :---: | :---: |
+| `bracket_validator("()")` | `True` |
+| `bracket_validator("()[]{}")` | `True` |
+| `bracket_validator("(]")` | `False` |
+| `bracket_validator("([)]")` | `False` |
+| `bracket_validator("{[]}")` | `True` |
+| `bracket_validator("hello(world)")` | `True` |
+| `bracket_validator("((())")` | `False` |
+| `bracket_validator("")` | `True` |

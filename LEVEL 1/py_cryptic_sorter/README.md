@@ -9,34 +9,17 @@ Write a function that sorts a list of strings according to multiple criteria:
 
 Forbidden functions: sorted(), list.sort()
 
-Function signature
+### Function signature
 
 	def cryptic_sorter(strings: list[str]) -> list[str]:
 
-Examples
 
+### Examples
 
-Input
-cryptic_sorter(["apple","cat","banana","dog","elephant"])
-Output
-["cat","dog","apple","banana","elephant"]
-
-Input
-cryptic_sorter(["aaa","bbb","AAA","BBB"])
-Output
-["aaa", "AAA", "bbb", "BBB"]
-
-Input
-cryptic_sorter(["hello","world","hi","test"])
-Output
-["hi","test","hello","world"]
-
-Input
-cryptic_sorter([])
-Output
-[]
-
-Input
-cryptic_sorter([""])
-Output
-[""]
+| Input | Output |
+| :---: | :---: |
+| `cryptic_sorter(["apple","cat","banana","dog","elephant"])` | `["cat","dog","apple","banana","elephant"]` |
+| `cryptic_sorter(["aaa","bbb","AAA","BBB"])` | `["aaa", "AAA", "bbb", "BBB"]` |
+| `cryptic_sorter(["hello","world","hi","test"])` | `["hi","test","hello","world"]` |
+| `cryptic_sorter([])` | `[]` |
+| `cryptic_sorter([""])` | `[""]` |
