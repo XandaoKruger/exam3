@@ -24,7 +24,7 @@ print(inter("aaa", "a")) # a
 print(inter("a", "aaa")) #  a
 print(inter("acb", "cba")) # abc
 print(inter("abc", "abc")) # abc
-print(inter("aabbcc", "abc")) # acb
+print(inter("aabbcc", "abc")) # abc
 print(inter("A", "a")) # ""
-print(inter("a b", " ")) # ""
-print(inter("a1!b", "!1")) # !1
+print(inter("a b", " ")) # " "
+print(inter("a1!b", "!1")) # 1!
