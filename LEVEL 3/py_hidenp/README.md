@@ -21,3 +21,12 @@
 | `hidenp("abc", "ab")` | `False` |
 | `hidenp("aaaa", "aaa")` | `False` |
 | `hidenp("sing","subsequence testing")` | `True` |
+
+### Lib Rich Import
+
+>[!NOTE]
+> Rich library used to replace the built-in print with the library's print, which has numerous functions. Here used to color 'TRUE & FALSE' automatically just by making this import.
+>
+> To install use -> pip install rich
+>
+> Otherwise, just comment the line with '#' and everything will be normal.
