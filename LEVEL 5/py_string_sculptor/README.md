@@ -14,7 +14,7 @@
 ### Examples
 
 | Input | Output |
-| :--- | :---: |
+| :---: | :---: |
 | `string_sculptor("hello")` | `"hElLo"` |
 | `string_sculptor("Hello World")` | `"hElLo WoRlD"` |
 | `string_sculptor(" hello ")` | `" hElLo "` |
